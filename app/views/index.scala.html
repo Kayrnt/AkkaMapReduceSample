@@ -1,0 +1,20 @@
+@(numberOfWebsites: Long, totalView: Long)
+
+@main {
+
+
+<h1>Statistics</h1>
+
+<p>number of websites: @numberOfWebsites</p>
+<p>total views : @totalView</p>
+
+
+<div class="actions">
+    <a href="@routes.Application.addRandom" class="btn primary">Add Sample data (10000 items)</a>
+    <a href="@routes.Application.deleteAll" class="btn">Reset DB</a>
+</div>
+
+
+}
+
+            
